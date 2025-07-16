@@ -1,0 +1,72 @@
+$date
+	Wed Jul 16 21:40:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rom_tb $end
+$var wire 4 ! data [3:0] $end
+$var reg 4 " addr [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ en $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1#
+bx "
+bx !
+$end
+#5
+0#
+#10
+b1110 !
+1#
+b1010 "
+1$
+#15
+0#
+#20
+b1100 !
+1#
+b110 "
+#25
+0#
+#30
+b10 !
+1#
+b11 "
+#35
+0#
+#40
+bx !
+1#
+b1111 "
+0$
+#45
+0#
+#50
+b1010 !
+1#
+b1000 "
+1$
+#55
+0#
+#60
+b10 !
+1#
+b0 "
+#65
+0#
+#70
+bx !
+1#
+bx "
+#75
+0#
+#80
+1#
